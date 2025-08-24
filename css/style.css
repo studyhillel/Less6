@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'IndieFlower-Regular';
+    src: url('../fonts/IndieFlower-Regular.ttf') format(trueType);
+}
+
+* {
+    margin: 10;
+    padding: 10;
+}
+
+
+body {
+    font-family: IndieFlower-Regular, cursive;
+    text-align: justify;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    background-image: url(../images/buddy-an-0mERTWSD7po-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.day {
+    background-color: blue;
+}
+
+.center {
+    /*min-width: 600px;
+    margin: 0 auto;
+    width: min(100% - 40px, 600px);
+    margin-inline: auto;
+    /*background: linear-gradient(to left, blue, green);*/
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 calc(50vw - 400px);
+}
