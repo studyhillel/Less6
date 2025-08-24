@@ -1,71 +1,126 @@
-@font-face {
-    font-family: 'IndieFlower-Regular';
-    src: url('../fonts/IndieFlower-Regular.ttf') format(trueType);
-}
-
-* {
-    margin: 10;
-    padding: 10;
-}
-
-
 body {
-    font-family: IndieFlower-Regular, cursive;
-    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
 }
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-
-    background-image: url(../images/buddy-an-0mERTWSD7po-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-body::after {
-    content: '';
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-
-    background-color: #fff;
-    opacity: 0.5;
-}
-
 
 table {
-    width: 100%;
-    border: 2px solid black;
+    width: 600px;
+    height: 600px;
     border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
 }
 
-td {
-    border: 1px solid black;
-    text-align: center;
+.row1 {
+    height: 50px;
+    border: 3px solid black;
+}
+
+.row2 {
+    height: 150px;
+    border: 3px solid black;
+}
+
+.row3 {
+    height: 150px;
+    border: 3px solid black;
+}
+
+.row4 {
+    height: 75px;
+    border: 3px solid black;
+}
+
+.row5 {
+    height: 75px;
+    border: 3px solid black;
+}
+.row6 {
+    height: 50px;
+    border: 3px solid black;
+}
+
+.row7 {
+    height: 25px;
+    border: 3px solid black;
+}
+
+.span1 {
+    width: 100px;
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+
+}
+.span2 {
+        width: 200px;
+        border-right: 7px solid black;
+    }
+
+.span3 {
+    width: 150px;
+    background-color: rgb(251, 255, 0);
+        border-right: 7px solid black;
+        
+}
+
+.span4 {
+    width: 20px;
+    border: 3px solid black;
 
 }
 
-.day {
+.cell22 {
+    background-color: red;
+    border: 7px solid black;
+}
+
+.cell23 {
+    background-color: rgb(251, 255, 0);
+    border: 7px solid black;
+}
+
+.cell21 {
+    border-bottom: 7px solid black;
+}
+
+.cell42 {
+    border: 7px solid black;
+}
+
+.cell33 {
+    border: 7px solid black;
+}
+
+.cell41 {
+    background-color: rgb(251, 255, 0);
+    border: 7px solid black;
+    border-left: 3px;
+    border-bottom: 3px;
+    
+}
+
+.cell45 {
+    background-color: red;
+    border: 3px  solid black;
+    border-top: 7px solid black;
+    
+}
+
+.cell55 {
     background-color: blue;
+    border: 7px solid black;
 }
 
-.center {
-    /*min-width: 600px;
-    margin: 0 auto;
-    width: min(100% - 40px, 600px);
-    margin-inline: auto;
-    /*background: linear-gradient(to left, blue, green);*/
+.cell73 {
+    border: 7px solid black;
+    border-bottom: 3px;
+}
 
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 calc(50vw - 400px);
+.cell40 {
+    border: 7px solid black;
+}
+
+.cell6 {
+    background-color: black;
+    border: 7px solid black;
 }
